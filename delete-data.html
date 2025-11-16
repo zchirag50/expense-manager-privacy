@@ -1,115 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Deletion Request – Expense Manager</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-            background: #f7f7f7;
-            line-height: 1.8;
-        }
-        .container {
-            max-width: 900px;
-            background: #fff;
-            padding: 25px 35px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            margin: auto;
-        }
-        h1 {
-            color: #0EA5E9;
-            font-size: 28px;
-        }
-        h2 {
-            color: #333;
-            font-size: 22px;
-            margin-top: 25px;
-        }
-        p {
-            color: #555;
-            font-size: 16px;
-        }
-        .email-box {
-            background: #eaf7ff;
-            padding: 15px;
-            border-left: 5px solid #0EA5E9;
-            border-radius: 5px;
-            margin: 20px 0;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #777;
-            text-align: center;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Delete My Data – Expense Manager</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; color: #222; line-height: 1.6; margin: 24px; max-width: 900px; }
+    h1 { color: #d93025; }
+    h2 { color: #333; margin-top: 22px; }
+    p { margin: 10px 0; }
+    .box { background:#fff7f7; border-left:4px solid #d93025; padding:10px 12px; margin:12px 0; }
+    code { background:#f4f4f4; padding:2px 6px; border-radius:4px; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Data Deletion Request – Expense Manager</h1>
-        <p>
-            This page explains how you can request the deletion of your data collected by the 
-            <strong>Expense Manager</strong> mobile application. We take user privacy seriously and provide a simple way to remove all your stored information.
-        </p>
 
-        <h2>How Data Is Stored</h2>
-        <p>
-            Expense Manager stores your data in two possible ways:
-        </p>
-        <ul>
-            <li><strong>Local Device Storage</strong> – If you are not using cloud sync, all your expense data is stored only on your device and is automatically deleted when you uninstall the app.</li>
-            <li><strong>Firebase Cloud Storage</strong> – If you use cloud sync/login, your expense data is stored securely in Firebase (Google Cloud).</li>
-        </ul>
+<h1>Delete My Data – Expense Manager</h1>
+<p><strong>Last Updated:</strong> 16-Nov-2025</p>
 
-        <h2>Request to Delete Cloud Data</h2>
-        <p>
-            If you have used cloud sync or logged into the app, you can request deletion of all your cloud-stored data.
-        </p>
+<p>This page explains how you can request deletion of your data stored in the <strong>Expense Manager</strong> app. We value user privacy and give full control over your data, whether it exists locally on your device or synced to Firebase Cloud.</p>
 
-        <div class="email-box">
-            <p><strong>Send an email request to:</strong><br>
-            <strong>Email:</strong> your-email@example.com</p>
-        </div>
+<h2>1. Delete Data Stored Locally (On Your Device)</h2>
+<p>You can delete your local data anytime using one of the following methods:</p>
 
-        <p>
-            Please include the following details in your email:
-        </p>
-        <ul>
-            <li>Your registered email ID used in the app</li>
-            <li>Subject: <strong>Data Deletion Request – Expense Manager</strong></li>
-            <li>A message requesting deletion of your account and associated data</li>
-        </ul>
+<ul>
+  <li><strong>Option 1:</strong> Open your device settings → Apps → Expense Manager → Clear Data</li>
+  <li><strong>Option 2:</strong> Uninstalling the app will also delete all locally stored data</li>
+</ul>
 
-        <h2>Deletion Timeline</h2>
-        <p>
-            After receiving your request:
-        </p>
-        <ul>
-            <li>Your data will be permanently deleted from Firebase within <strong>7 business days</strong>.</li>
-            <li>You will receive a confirmation email once the deletion process is complete.</li>
-        </ul>
+<p>No request is needed because local data is fully controlled by you.</p>
 
-        <h2>Local Data Deletion</h2>
-        <p>
-            If you are not using cloud sync/login, all data is stored on your device only.  
-            To delete your local data:
-        </p>
-        <ul>
-            <li>Clear app data from device settings, or</li>
-            <li>Uninstall the Expense Manager app</li>
-        </ul>
+<h2>2. Delete Cloud Data (Firebase Sync)</h2>
+<p>If you enabled cloud sync in the app, your expense data, income history, and budgets may be stored in Firebase. You can request complete removal of this synced data.</p>
 
-        <h2>Need More Help?</h2>
-        <p>
-            If you have any questions about data removal, feel free to contact us at the email above. We will assist you promptly.
-        </p>
+<h3 class="box">To request deletion of cloud data, email us at:<br>
+<strong><code>your-email@example.com</code></strong></h3>
 
-        <footer>
-            © 2025 Expense Manager — Data Privacy & User Rights
-        </footer>
-    </div>
+<h3>Please include:</h3>
+<ul>
+  <li>Your registered email (used for login or sync)</li>
+  <li>Subject line: <code>Delete my Expense Manager data</code></li>
+  <li>Optional: Your user ID (if displayed in the app)</li>
+</ul>
+
+<p>We will permanently delete your cloud data from Firebase within <strong>48–72 hours</strong> and notify you once completed.</p>
+
+<h2>3. What Data Will Be Deleted?</h2>
+<p>Upon request, we will delete the following synced information:</p>
+
+<ul>
+  <li>Expense records</li>
+  <li>Income records</li>
+  <li>Budget settings</li>
+  <li>User profile (if any)</li>
+  <li>Any other cloud-synced financial data</li>
+</ul>
+
+<p><strong>Note:</strong> We cannot recover data once deletion is completed.</p>
+
+<h2>4. Contact Us</h2>
+<p>If you have questions about data removal or privacy, contact us at:</p>
+<p><strong>Email:</strong> <code>rcddeveloper1@gmail.com</code></p>
+
+<hr />
+
 </body>
 </html>
